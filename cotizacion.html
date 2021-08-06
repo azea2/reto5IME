@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="styleReto4IME.css/styleReto4IME.css">
+
+    <!--Link Tipo de Letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+
+    <!--Link Tipo de Letra - Titulos y Subtiulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asset&family=Gayathri:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--**SECCIÓN 1**-->
+        <div>
+            <!--LOGO-->
+            <img id=logo src="https://drive.google.com/uc?export=download&id=1FpvBM2-lHUx_wcizNjUWlbl8Cq4JvX78" alt="Logo">
+            
+            <!--MENÚ REGISTROS-->
+            <nav>
+                <ul class="menuReg">
+                    <li><a href="registro.html">Regístrate</a></li>
+                    <li><a href="registro.html">Inicia Sesión</a></li>
+                </ul>
+            </nav>
+            <br><br>
+
+            <!--MENÚ DE NAVEGACIÓN-->
+            <nav>
+                <ul class="menuNav"> 
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="cotizacion.html">Cotización</a></li>
+                    <li><a href="contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+
+            <!--LOGOS IDIOMAS-->
+            <div id="alnDr">
+            <img src="https://images.emojiterra.com/twitter/v13.0/512px/1f1e8-1f1f4.png" width="3%" alt="idiomaEspañol">
+            <img src="https://www.conmishijos.com/assets/posts/11000/11589-bandera-inglesa.jpg" width="4%" alt="idiomaEnglish">
+            <br>
+
+            <!--LOGOS WHATSAPP-->
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1dHtHeXFtNdUJUJtKPAJx7IsP6AwKaJMi" width="5%" alt="logoWhatsApp"></a>
+            </div>
+        </div>
+    </header>
+    <br><br>
+
+
+    <!--SECCIÓN 2-->
+    <form id="alnCt" action="coti.html" method="GET">
+        <div>
+            <!--TITULO COTIZACIÓN-->
+            <h1>Desarrollemos Algo <br> ASOMBROSO</h1>
+            <br>
+    
+            <h1><b>COTIZACIÓN</b></h1>
+            <br>
+    
+            <P>Información Personal</P>
+            <br>
+    
+            <section>
+                <!--NOMBRE-->
+                <label for="nombre">Nombre: </label>
+                <br>
+                <!--Recuadro para ingresar información-->
+                <input type="text" name="nombre">
+                <br><br> 
+
+                <!--TELÉFONO-->
+                <label for="">Télefono</label>
+                <input type="number">
+
+                <!--E-MAIL-->
+                <label for="">Email</label>
+                <input type="email">
+                <br><br><br> 
+
+                <!--TIPO DE SERVICIO-DESPLEGABLE-->
+                <label for="">Tipo de Servicio</label>
+                <select>
+                    <option> </option>
+                    <option><b>Desarrollo de App – Escritorio</b></option>
+                    <option><b>Desarrollo de App – Móvil</b></option>
+                    <option><b>Desarrollo WEB</b></option>
+                    <option><b>otro</b></option>
+                </select>
+                <br><br>
+
+                <!--CAMPO DE TEXTO TIPO DE SERVICIO-->
+                <label for="">Campo de Texto</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br><br>
+            </section>
+
+            <form action="formEnviarSolicitud">
+                <!--BOTON ENVIAR COTIZACIÓN-->
+                <a id="btn" href=" " target="_blank"><input type="button" value="ENVIAR SOLICITUD"></a>
+            </form>
+        </div>
+    </form>
+    <br><br>
+
+  
+    <!--SECCIÓN 3-->
+    <div>   
+        <!--LÍNEA DE SEPARACIÓN-->
+        <hr> 
+        
+        <!--PIE DE PÁGINA-->
+        <footer>
+            <p id="alnIz">Contáctenos <br> Medellín, Colombia</p>
+            <p id="alnCt">AZ - Todos los derechos reservados - Powered by BlackSi</p>
+        
+            <!--LOGOS REDES-->
+            <div id="alnDr">
+                <a href="https://www.facebook.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1AtRgOOuDYZTRjabL-NxxuQfoFAOIxR_s" width="3%" alt="logoFaacebook"></a>
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1KO-MNlwvwfU-bzKLySwgCxisoXHnnCOx" width="4%" alt="logoInstagram"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="https://drive.google.com/uc?export=download&id=1pXiumXsSA3nDMeOw573C3i24oJBos05J" width="4%" alt="logoYoutube"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
